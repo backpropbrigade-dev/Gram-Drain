@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+token.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+/tmp/
+tmp/
+
+# LiDAR raw data — too large for GitHub
+*.las
+*.laz
+*.LAS
+*.LAZ
+
+# Large rasters / outputs (keep only small demo outputs if needed)
+outputs/raw/
+outputs/full/
+*.tif.aux.xml
+*.ovr
+
+# Colab / Drive artifacts
+/content/
+/drive/
+
+# Model or cache artifacts
+*.pkl
+*.joblib
+.cache/"cloth_nodes.txt" 
