@@ -1,0 +1,7 @@
+[server]
+maxUploadSize = 10240          # 10 GB in MB
+enableXsrfProtection = false
+headless = false
+
+[browser]
+gatherUsageStats = false
